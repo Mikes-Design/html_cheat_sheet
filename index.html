@@ -15,10 +15,46 @@
     <!--<head> element-->
         <p> The head HTML element contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets. There can be only
              one head element in an HTML document. <strong>Note:</strong> head primarily holds informaiton for machine processing, not human-readability.
-            For ju,am-visable information, like top-level headins and listed authors, see the header element</p>
-
+            For human-visable information, like top-level headings and listed authors, see the header element</p>
     
+    </section>
 
+    <section>
+        <!--<header> element-->
+        
+        <h2>Header Element</h2>
+        
+        <p>The header HTML element represents introductory content, typically a group of introductory or navigational aids. It may contain some
+            heading elements but also a logo, a search form, an author name, and other elements.
+        </p>
+
+        <h2>Usage notes</h2>
+
+        <p>When not nested within sectioning content, main, or an element with the same ARIA role as these elements' implicit ARIA role, then the header element has an
+            indentical meaning to the sire-wide banner landmark role. It defines a global site header, which usually includes a logo, company name, search feature,
+            and possibly the global navigation or a slogan. It is generally located at the top of the page.
+        </p>
+        <br>
+
+        <p>Otherwise, when nested within said elemnts, it loses its landmark status and represents a group of introductory or navigational aids for the surronding section.
+            It usually contains the surronding section's heading (an h1 - h6 element) and optional subheading, but this is not required.
+        </p>
+
+        <h2>Accessibility</h2>
+
+        <p>The header element defines a banner landmark when its context is the body element.</p>
+
+        <br>
+
+        <p>When places inside an article, main, section, nav, aside, or an element with the same ARIA role as these elements' implicit ARIA role, the header element has the
+
+        generic role instead, and is no longer considered a landmark. In this case, it cannot be labeled with aria-label or aria-labelby
+        </p>
+
+    </section>
+
+    <section>
+    
     
     <!--Headings-->
     <h1>Heading One</h1>
